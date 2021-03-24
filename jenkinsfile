@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            sh "aws cloudformation create-stack --stack-name react-cloudfront --template-body file://sample.yml --region 'ap-south-1'"
+            sh "aws cloudformation create-stack --stack-name react-cloudfront --template-body file://cloudfronts3.yml --region 'ap-south-1'"
               }
              }
             }
