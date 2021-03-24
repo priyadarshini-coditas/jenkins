@@ -4,7 +4,7 @@ Resources:
   S3Bucket: 
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'cust-stack-buck478632'
+      BucketName: 'cust-stack-buck4732'
       AccessControl: 'Private' 
       Tags:
         - Key: Name
